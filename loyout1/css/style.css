@@ -1,0 +1,44 @@
+body {
+	font-family: tahoma;
+	font-size: 13px;
+	width: 1000px;
+	margin: 0px auto; 
+ }
+.navigation {
+	background-color: #F7819F;
+	height: 40px;
+
+}
+.navigation ul li{
+	list-style: none;
+	float: left;
+}
+  
+.navigation ul li a {
+	text-decoration: none;
+	color: #000000;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 20px 0px 20px ;
+}
+.content ul {
+	margin: 0px;
+	padding: 0px;
+}
+.content .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+.content ul li img {
+  max-width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin: 20px;
+}
+.content ul li {
+	list-style: none;
+	border-bottom: 2px solid #ccc;
+  }
