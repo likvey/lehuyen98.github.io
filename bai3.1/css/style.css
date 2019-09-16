@@ -1,0 +1,105 @@
+body {
+	font-family: tahoma;
+	font-size: 13px;
+	max-width: 1000px;
+	margin: 0px auto; 
+ }
+.navigation {
+	background-color: #F7819F;
+	height: 40px;
+	position: sticky; /*cố định menu trên trang */
+	top:0px;
+}
+.navigation ul li{
+	list-style: none;
+	float: left;
+}
+} 
+.navigation ul li:hover{
+	background-color: #FF0066;
+	color: #3333FF;
+
+}
+  
+.navigation ul li a {
+	text-decoration: none;
+	color: #000000;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 20px 0px 20px ;
+}
+.content{
+	margin-top: 10px;
+	display: flex; /*xác định loại hiển thị của thành phần*/
+	flex-direction: row; /* flex xác định thành phần con bên trong thành phần cha sẽ co lại hoặc giảm như thế nào*/
+}
+.content .left {
+	flex: 70%;
+	background-color: #FFFFCC;
+}
+.content .right {
+	flex: 30%;
+	background-color: white;
+	padding-left: 20px;
+}
+.content .left .baiviet {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0px;
+}
+.content .left .baiviet .anh {
+	flex: 30%;
+	padding-right: 20px;
+}
+.content .left .baiviet .noidung {
+	flex: 70%
+}
+#fa{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	color: white;
+	font-size: 40px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+
+}
+.a1 {
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+.a2{
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}
+ .a3 {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #ccc; 
+	padding: 10px 0px;
+}
+ .trai {
+	flex: 20%;
+	border-right: 1px solid #ccc;
+}
+.phai {
+	flex: 80%;
+	padding-left: 10px
+}
+.tren {
+
+	background-color: #CCFFCC;
+}
+.duoi {
+	margin-top: 20px;
+	background-color: #99FFCC	;
+	border-top: 1px solid #ccc;
+}
+.duoi ul li {
+	line-height: 50px;
+}
+#footer{
+	background-color: #DDDDDD;
+}

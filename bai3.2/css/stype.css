@@ -1,0 +1,59 @@
+body {
+	max-width: 1200px;
+	margin: 0px auto; 
+}
+.menu {
+	background-color: black;
+	color: white;
+	height: 40px;
+	position: sticky; /*cố định menu trên trang */
+	top:0px;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+	text-decoration: none;
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	padding: 0px 20px 0px 20px ;
+}
+.menu ul li:hover{
+	background-color: #FF0066;
+	color: #3333FF;
+}
+.giua {
+	margin-top: 10px;
+	width: 100%;
+	background-color: white;
+}
+
+.a {
+
+	background-color: #CCFFFF;
+	width: 31%;
+	height: 400px;
+	margin-right: 15px;
+	margin-top: 10px;
+	float: left;
+	padding-left: 10px;
+}
+.baiviet {
+	display: flex;
+	flex-direction: row;
+}
+.anh {
+	flex: : 20%;
+	margin-left: 10px;
+}
+.noidung {
+	flex: 80%;
+	margin-left: 10px;
+	line-height: 18px;
+}
+
+
+.footer{
+	margin-top: 20px;
+	background-color: #DDDDDD;
+}
